@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 800px;
+    margin: auto;
+}
+
+footer{
+    height: 25px;
+    background-image: url(../imagenes/fondo_footer.jpg);
+    background-size: cover;
+}
+
+/* TEXTOS */
+
+h1{
+        font-family: 'Qwitcher Grypen';
+        font-size: 112px;
+/*         background-color:aliceblue; */
+        background-image: url(../imagenes/fondo.jpg);
+        background-size: contain;
+        text-align: center;
+        color: aliceblue;
+}
+
+h2{
+    font-family: 'Qwitcher Grypen';
+    font-size: 66px;
+}
+
+.h2_secundario{
+    font-family: 'Qwitcher Grypen';
+    font-size: 66px;
+    text-align: center;
+    background-image: url(../imagenes/h2_secundario_fondo.jpg);
+    background-size:cover;
+    color: aliceblue;
+}
+
+p{
+    font-family: 'Qwitcher Grypen';
+    font-size: 33px;
+}
+
+/* DIVS */
+
+.items_seccion_principal{
+
+    height: auto;
+    width: auto;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+
+.items_seccion_principal_izquierda{
+    height: 350px;
+    width: 50%;
+    display: block;
+    padding: 25px;
+}
+
+.items_seccion_principal_derecha {
+    height: 350px;
+    width: 50%;
+    display: block;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.descripcion p{
+    padding: 25px;
+    background-color:antiquewhite;
+}
+
+/* IMAGENES */
+
+.imagen_plato{
+    height: 250px;
+    width: 250px;
+ /*    object-fit: contain; */
+}
